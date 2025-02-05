@@ -4,8 +4,18 @@ body {
     min-height: 100vh;
 }
 
+.header, .header-links, .footer {
+    display: flex;
+}
+
 .header, .footer {
     background-color: #1F2937;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -15,7 +25,6 @@ a {
 }
 
 .header-links {
-    display: flex;
     justify-content: space-between;
     align-items: center;
 }
