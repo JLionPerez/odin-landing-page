@@ -4,7 +4,7 @@ body {
     min-height: 100vh;
 }
 
-.header, .header-links, .footer {
+.header, .header-links, ul, .footer {
     display: flex;
 }
 
@@ -14,21 +14,27 @@ body {
 
 .header {
     flex-direction: column;
+    padding: 0 160px;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    gap: 20px;
 }
 
 a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+    font-weight: normal;
 }
 
 .header-links {
     justify-content: space-between;
     align-items: center;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
 }
