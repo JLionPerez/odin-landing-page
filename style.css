@@ -8,6 +8,12 @@ body {
     background-color: #1F2937;
 }
 
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
 .header-links {
     display: flex;
     justify-content: space-between;
