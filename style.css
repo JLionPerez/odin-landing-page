@@ -4,7 +4,7 @@ body {
     min-height: 100vh;
 }
 
-.header, .header-links, ul, a, .footer, .main-title {
+.header, .header-links, ul, a, .footer, .main-title, .main-box {
     display: flex;
 }
 
@@ -53,17 +53,20 @@ a {
     color: #F9FAF8;
     font-weight: 900;
     width: 500px;
+    align-items: flex-start;
+    flex-direction: column;
 }
 
 .main-box p {
     font-size: 18px;
     color: #E5E7EB;
     font-weight: normal;
+    margin: 0;
 }
 
 .placeholder {
     flex-shrink: 0;;
     background-color: gray;
     width: 500px;
-    height: 150px;
+    height: 250px;
 }
