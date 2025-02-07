@@ -64,6 +64,16 @@ a {
     margin: 0;
 }
 
+.main-box button {
+    background-color: #3883F6;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 5px 32px;
+    font-weight: 900;
+    font-size: 18px;
+}
+
 .placeholder {
     flex-shrink: 0;;
     background-color: gray;
