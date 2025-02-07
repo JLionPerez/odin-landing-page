@@ -48,6 +48,19 @@ a {
     padding-bottom: 36px;
 }
 
+.main-box {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    width: 500px;
+}
+
+.main-box p {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: normal;
+}
+
 .placeholder {
     flex-shrink: 0;;
     background-color: gray;
