@@ -4,7 +4,7 @@ body {
     min-height: 100vh;
 }
 
-.header, .header-links, ul, a, .footer, .main-title, .main-box {
+.header, .header-links, ul, a, .footer, .main-title, .main-box, .placeholder {
     display: flex;
 }
 
@@ -74,9 +74,14 @@ button {
     font-size: 18px;
 }
 
+#sign-button {
+    border: 2px solid white;
+}
+
 .placeholder {
     flex-shrink: 0;;
     background-color: gray;
     width: 500px;
     height: 250px;
 }
+
