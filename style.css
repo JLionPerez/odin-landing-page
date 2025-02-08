@@ -18,7 +18,8 @@ a,
 .info-section,
 .card-box,
 .card,
-.quote {
+.quote,
+.quote p {
     display: flex;
 }
 
