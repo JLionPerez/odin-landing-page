@@ -3,7 +3,6 @@ body {
     margin: 0;
     min-height: 100vh;
     flex-direction: column;
-    flex: 1;
 }
 
 body,
@@ -19,7 +18,9 @@ a,
 .card-box,
 .card,
 .quote,
-.quote p {
+.quote p,
+.sign-up,
+.sign-text {
     display: flex;
 }
 
@@ -163,4 +164,16 @@ button {
     font-size: 25px;
     font-weight: bold;
     justify-content: flex-end;
+}
+
+.sign-up {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: auto;
+}
+
+.sign-text {
+    background-color: #3882F6;
 }
