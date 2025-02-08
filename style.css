@@ -120,7 +120,7 @@ button {
     text-align: center;
     font-size: 18px;
     flex-flow: row wrap;
-    gap: 20px;
+    gap: 50px;
 }
 
 .card {
@@ -129,3 +129,9 @@ button {
     flex-direction: column;
 }
 
+.card-image {
+    outline: 5px solid #3882F6;
+    height: 190px;
+    border-radius: 10px;
+    color: white;
+}
