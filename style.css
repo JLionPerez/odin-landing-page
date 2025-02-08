@@ -11,7 +11,9 @@ a,
 .footer,
 .main-title,
 .main-box,
-.placeholder {
+.placeholder,
+.info-section,
+.card-box {
     display: flex;
 }
 
@@ -96,5 +98,11 @@ button {
     justify-content: center;
     line-height: 250px;
     color: white;
+}
+
+.info-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
