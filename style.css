@@ -93,10 +93,6 @@ button {
     font-size: 18px;
 }
 
-#sign-button {
-    border: 2px solid white;
-}
-
 .placeholder {
     flex-shrink: 0;;
     background-color: gray;
@@ -171,13 +167,24 @@ button {
 }
 
 .sign-up {
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 300px;
     width: auto;
+    padding: 0 300px;
+}
+
+.sign-box {
+    background-color: #3882F6;
+    flex-direction: column;
+    border-radius: 10px;
+    flex: 1;
 }
 
 .sign-text {
-    background-color: #3882F6;
+    flex-wrap: wrap;
+}
+
+#sign-button {
+    border: 4px solid white;
 }
