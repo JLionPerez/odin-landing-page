@@ -148,6 +148,7 @@ button {
 .quote {
     flex-direction: column;
     background-color: #E5E7EB;
+    padding: 100px 550px;
 }
 
 .quote p {
@@ -155,6 +156,11 @@ button {
     font-weight: 300;
     font-style: italic;
     text-align: start;
-    padding: 50px 550px;
     margin: 0;
+}
+
+#quote-source {
+    font-size: 25px;
+    font-weight: bold;
+    justify-content: flex-end;
 }
